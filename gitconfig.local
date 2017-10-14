@@ -1,0 +1,36 @@
+[init]
+  templatedir = ~/.git_template
+
+[color]
+  ui = auto
+
+[commit]
+  gpgsign = true
+  template = ~/.gitmessage
+
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+
+[fetch]
+  prune = true
+
+[github]
+  user = kenyonj
+
+[merge]
+  ff = only
+
+[pretty]
+  colored = format:%C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an, %cr]%Creset
+
+[push]
+  default = current
+
+[rebase]
+  autosquash = true
+
+[user]
+  name = Justin Kenyon
+  email = kenyonj@gmail.com
+  signingkey = 2538E93E
