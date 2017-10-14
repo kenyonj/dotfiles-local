@@ -1,5 +1,5 @@
 # Alias Editing
-alias ae="vim ~/.aliases"
+alias ae="vim ~/.aliases.local"
 alias ar="source ~/.aliases; echo 'aliases reloaded!'"
 
 # ZSH
