@@ -25,10 +25,9 @@ function! RenameFile()
 endfunction
 map <Leader>n :call RenameFile()<cr>
 
-" Color scheme
-syntax enable
-set background=dark
-colorscheme base16-flat
+if filereadable(expand("~/.vimrc_background"))
+  source ~/.vimrc_background
+endif
 
 " Toggle relative and non-relative line numbers
 function! ToggleNumber()
