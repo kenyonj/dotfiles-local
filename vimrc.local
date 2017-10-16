@@ -68,7 +68,7 @@ map <Leader>po Osave_and_open_page<Esc><CR>
 imap jj <Esc>
 
 " Vim and OS share clipboard
-set clipboard+=unnamedplus
+set clipboard=unnamed
 
 " Highlight cursor line and cursor column
 set cursorline cursorcolumn
