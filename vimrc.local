@@ -26,6 +26,7 @@ endfunction
 map <Leader>n :call RenameFile()<cr>
 
 if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
   source ~/.vimrc_background
 endif
 
