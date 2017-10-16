@@ -90,6 +90,7 @@ source "$CHRUBY_LOCATION/chruby/chruby.sh"
 source "$CHRUBY_LOCATION/chruby/auto.sh"
 
 eval "$(fasd --init auto)"
+source "/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 
 chruby "ruby-2.4.2"
 PROMPT='$(_working_directory)$(_separate $(_colored_git_branch)) $(_display_current_vim_mode) '
