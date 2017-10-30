@@ -6,7 +6,7 @@
 
 [commit]
   gpgsign = true
-  template = ~/.gitmessage
+  template = ~/.gitmessage.local
 
 [core]
   excludesfile = ~/.gitignore
