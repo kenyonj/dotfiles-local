@@ -70,9 +70,6 @@ imap jj <Esc>
 " Vim and OS share clipboard
 set clipboard=unnamed
 
-" Highlight cursor line and cursor column
-set cursorline cursorcolumn
-
 " Always have spaces above and below window
 set scrolloff=5
 
