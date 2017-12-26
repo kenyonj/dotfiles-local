@@ -64,6 +64,9 @@ map <Leader>pr Orequire "pry";binding.pry<Esc><CR>
 " save and open page
 map <Leader>po Osave_and_open_page<Esc><CR>
 
+" use jsx file syntax highlighting
+map <Leader>jsx :let g:jsx_ext_required=0<CR>
+
 " escape insert mode quickly
 imap jj <Esc>
 
